@@ -21,6 +21,29 @@
 .App-link {
   color: #61dafb;
 }
+h1{
+  text-decoration: underline;
+}
+.container{
+  width: 65%;
+  margin: 0 auto;
+}
+.no-puce{
+  list-style-type: none;
+  margin-left: -40px;
+  margin-top: 15px;
+}
+fieldset input{
+  text-align: center;
+  font-style: italic;
+}
+input[type=text]{
+  padding: 10px 5px;
+}
+label{
+  visibility: hidden;
+  position: absolute;
+}
 
 @keyframes App-logo-spin {
   from {
