@@ -39,17 +39,39 @@ fieldset input{
 }
 input[type=text]{
   padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 label{
   visibility: hidden;
   position: absolute;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+fieldset{
+  border-radius: 100px;
+  border: 1px solid #606061;
+  background: linear-gradient(to left,#28a5f5,#1e87f0);
+}
+.btn{
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.btn-blue{
+  background: #099bf1;
+  color: #fff;
+}
+.btn-red{
+  background: #f10909;
+}
+.start{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; 
+}
+.reset{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; 
+}
+.stop{
+  border-radius: 0;
 }

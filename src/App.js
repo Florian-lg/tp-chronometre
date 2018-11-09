@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import ListTimer from './components/timer.component';
+import ListTimer from './components/listTimer.component';
 import './App.css';
 
 class App extends Component {
@@ -16,12 +16,11 @@ class App extends Component {
       <div className="App">
         <div className="container">
         <h1>Liste des choronomètres</h1>
-        <fieldset>
-            <ListTimer/>       
-          </fieldset>
+          <ListTimer/>       
         </div>       
+        <script src="./utils/chrono.js"></script>
       </div>
-    );
+      );
   }
 }
 
